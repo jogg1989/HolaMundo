@@ -54,7 +54,7 @@ namespace HolaMundo
             regEsp = new Regex("^(?=.*\\W).{1,}$");
 
             mensaje += regMay.IsMatch(cadena1) ? "" : "Debe haber por lo menos una Mayúscula\n";
-            mensaje += regMin.Match(cadena1).Success ? "" : "Debe haber por lo menos una Minúscula\n";
+            mensaje += regMin.IsMatch(cadena1) ? "" : "Debe haber por lo menos una Minúscula\n";
             mensaje += regNum.IsMatch(cadena1) ? "" : "Debe haber por lo menos una Número\n";
             mensaje += regEsp.IsMatch(cadena1) ? "" : "Debe haber por lo menos una Caracter Especial\n";
 
