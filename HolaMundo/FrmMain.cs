@@ -23,13 +23,11 @@ namespace HolaMundo
         private void cbView1_CheckedChanged(object sender, EventArgs e)
         {
             tbPw1.UseSystemPasswordChar = !cbView1.Checked;
-            cbView2.Checked = cbView1.Checked;
         }
 
         private void cbView2_CheckedChanged(object sender, EventArgs e)
         {
             tbPw2.UseSystemPasswordChar = !cbView2.Checked;
-            cbView1.Checked = cbView2.Checked;
         }
 
         private void btnValidate_Click(object sender, EventArgs e)
