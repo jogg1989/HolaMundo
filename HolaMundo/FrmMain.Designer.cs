@@ -67,7 +67,7 @@ namespace HolaMundo
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tbPw1.Font = new System.Drawing.Font("Segoe UI", 14F);
             this.tbPw1.Location = new System.Drawing.Point(410, 53);
-            this.tbPw1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.tbPw1.Margin = new System.Windows.Forms.Padding(5);
             this.tbPw1.Name = "tbPw1";
             this.tbPw1.Size = new System.Drawing.Size(1352, 70);
             this.tbPw1.TabIndex = 2;
@@ -78,7 +78,7 @@ namespace HolaMundo
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tbPw2.Font = new System.Drawing.Font("Segoe UI", 14F);
             this.tbPw2.Location = new System.Drawing.Point(410, 168);
-            this.tbPw2.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.tbPw2.Margin = new System.Windows.Forms.Padding(5);
             this.tbPw2.Name = "tbPw2";
             this.tbPw2.Size = new System.Drawing.Size(1352, 70);
             this.tbPw2.TabIndex = 3;
@@ -89,7 +89,7 @@ namespace HolaMundo
             this.btnValidate.AutoSize = true;
             this.btnValidate.Font = new System.Drawing.Font("Segoe UI", 14F);
             this.btnValidate.Location = new System.Drawing.Point(878, 313);
-            this.btnValidate.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnValidate.Margin = new System.Windows.Forms.Padding(5);
             this.btnValidate.Name = "btnValidate";
             this.btnValidate.Size = new System.Drawing.Size(312, 108);
             this.btnValidate.TabIndex = 4;
@@ -103,7 +103,7 @@ namespace HolaMundo
             this.cbView1.AutoSize = true;
             this.cbView1.Font = new System.Drawing.Font("Segoe UI", 14F);
             this.cbView1.Location = new System.Drawing.Point(1839, 58);
-            this.cbView1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.cbView1.Margin = new System.Windows.Forms.Padding(5);
             this.cbView1.Name = "cbView1";
             this.cbView1.Size = new System.Drawing.Size(132, 66);
             this.cbView1.TabIndex = 5;
@@ -116,12 +116,12 @@ namespace HolaMundo
             this.cbView2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.cbView2.AutoSize = true;
             this.cbView2.Font = new System.Drawing.Font("Segoe UI", 14F);
-            this.cbView2.Location = new System.Drawing.Point(1814, 173);
-            this.cbView2.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.cbView2.Location = new System.Drawing.Point(1839, 173);
+            this.cbView2.Margin = new System.Windows.Forms.Padding(5);
             this.cbView2.Name = "cbView2";
-            this.cbView2.Size = new System.Drawing.Size(157, 66);
+            this.cbView2.Size = new System.Drawing.Size(132, 66);
             this.cbView2.TabIndex = 6;
-            this.cbView2.Text = "Ver1";
+            this.cbView2.Text = "Ver";
             this.cbView2.UseVisualStyleBackColor = true;
             this.cbView2.CheckedChanged += new System.EventHandler(this.cbView2_CheckedChanged);
             // 
@@ -140,7 +140,7 @@ namespace HolaMundo
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FrmMain";
