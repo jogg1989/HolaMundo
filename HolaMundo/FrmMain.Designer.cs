@@ -123,6 +123,7 @@ namespace HolaMundo
             this.cbView2.TabIndex = 6;
             this.cbView2.Text = "Ver";
             this.cbView2.UseVisualStyleBackColor = true;
+            this.cbView2.Visible = false;
             this.cbView2.CheckedChanged += new System.EventHandler(this.cbView2_CheckedChanged);
             // 
             // FrmMain
